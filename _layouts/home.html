@@ -40,6 +40,25 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+<!-- 프로필 추가 -->
+<div id="github-public-profile" class="card"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    function loadExternalHTML(url, elementId) {
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById(elementId).innerHTML = marked.parse(data);
+            })
+            .catch(error => console.error('Error loading external HTML:', error));
+    }
+
+    loadExternalHTML('https://raw.githubusercontent.com/KimJayhyun/KimJayhyun/main/README.md', 'github-public-profile');
+  });
+</script>
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     <article class="card-wrapper card">
