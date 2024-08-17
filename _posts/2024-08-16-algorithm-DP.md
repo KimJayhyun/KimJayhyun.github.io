@@ -90,7 +90,7 @@ def fib(n, memo={}):
    - 첫 항부터 계산하여 가독성이 비교적 높아짐
 
 ### 2. 0-1 배낭문제
-- 문제
+- 백준 URL
   - [평범한 배낭](https://www.acmicpc.net/problem/12865)
-- 해설
-  - [메모리제이션 해결방법](https://kimjayhyun.github.io/posts/baekjoon/12865)
+- 풀이법
+  - [메모리제이션 해결방법](https://kimjayhyun.github.io/posts/baekjoon-12865/)
