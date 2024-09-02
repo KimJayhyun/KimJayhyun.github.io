@@ -113,7 +113,7 @@ Kubernetes를 표준화를 하면서 Docker를 지원하지 않을 수도 있다
 
 - Docker가 Kubernetes의 인터페이스와 맞지 않았기 때문
 
-Kubernetes와 호환을 위해 Docker 이외에 다른 Container Tool들이 만들어짐
+Kubernetes와 호환을 위해 Docker 이외에 다른 Container Runtime Tool들이 만들어짐
 
 ---
 
@@ -140,7 +140,8 @@ Kubernetes에서 빠지지 않았다.
 
 ---
 
-## 쿠버네티스와 컨테이너
+## 결론
+쿠버네티스와 컨테이너
 
 1. Kubernetes는 현재 표준을 넘어 여러 분야에서 사용되고 있다.
 2. Kubernetes는 컨테이너를 더 쉽게 사용할 수 있게 해준다.
