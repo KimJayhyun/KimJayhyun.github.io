@@ -1,10 +1,10 @@
 ---
-title: '[algorithm] DP - Dynamic Programming'
+title: '[Algorithm] DP - Dynamic Programming'
 date: 2024-08-16 21:00:00 +09:00
-categories: [algorithm, DP]
+categories: [Algorithm, DP]
 tags:
   [
-    algorithm,
+    Algorithm,
     DP
   ]
 ---

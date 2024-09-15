@@ -1,11 +1,11 @@
 ---
-title: '[argparse] SUPPRESS'
+title: '[Argparse] SUPPRESS'
 date: 2024-07-08 11:25:00 +09:00
-categories: [Python, argparse]
+categories: [Python, Argparse]
 tags:
   [
     Python,
-    argparse,
+    Argparse,
     Python Library
   ]
 ---

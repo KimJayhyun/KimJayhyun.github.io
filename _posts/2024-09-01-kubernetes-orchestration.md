@@ -1,12 +1,12 @@
 ---
 title: '[Kubernetes] # 1-2. 컨테이너 한방 정리 - Container & Orchestration'
 date: 2024-09-01 23:00:00 +09:00
-categories: [kubernetes, 쿠버네티스 어나더 클래스 지상편]
+categories: [Kubernetes, 쿠버네티스 어나더 클래스 지상편]
 tags:
   [
     쿠버네티스 어나더 클래스 지상편,
-    kubernetes,
-    container,
+    Kubernetes,
+    Container,
     Linux
   ]
 ---

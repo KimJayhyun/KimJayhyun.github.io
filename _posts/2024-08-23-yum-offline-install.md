@@ -1,7 +1,7 @@
 ---
 title: '[Linux] 오프라인 환경에서 yum 패키지 설치' 
 date: 2024-08-23 11:00:00 +09:00
-categories: [Linux, yum]
+categories: [Linux, Yum]
 tags:
   [
     Linux,

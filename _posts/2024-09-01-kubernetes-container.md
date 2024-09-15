@@ -1,12 +1,12 @@
 ---
 title: '[Kubernetes] # 1-1. 컨테이너 한방 정리 - 기술의 흐름'
 date: 2024-09-01 22:00:00 +09:00
-categories: [kubernetes, 쿠버네티스 어나더 클래스 지상편]
+categories: [Kubernetes, 쿠버네티스 어나더 클래스 지상편]
 tags:
   [
     쿠버네티스 어나더 클래스 지상편,
-    kubernetes,
-    container,
+    Kubernetes,
+    Container,
     Linux
   ]
 ---
