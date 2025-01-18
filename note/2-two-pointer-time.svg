@@ -1,0 +1,84 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 제목 -->
+    <text x="400" y="40" font-size="24" text-anchor="middle" font-weight="bold">Brute Force vs Two Pointer 비교</text>
+    
+    <!-- Brute Force 부분 -->
+    <g transform="translate(50, 80)">
+        <text x="150" y="20" font-size="20" text-anchor="middle" font-weight="bold">Brute Force (O(n²))</text>
+        
+        <!-- 문자열 -->
+        <g transform="translate(0, 50)">
+            <rect x="0" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="40" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="80" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="120" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="160" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            
+            <text x="20" y="25" text-anchor="middle">h</text>
+            <text x="60" y="25" text-anchor="middle">e</text>
+            <text x="100" y="25" text-anchor="middle">l</text>
+            <text x="140" y="25" text-anchor="middle">l</text>
+            <text x="180" y="25" text-anchor="middle">o</text>
+            
+            <!-- 비교 화살표들 -->
+            <path d="M20,45 L180,45" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+            <path d="M60,65 L140,65" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+            <path d="M100,85 L100,85" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+        </g>
+        
+        <text x="100" y="160" font-size="14" text-anchor="middle">각 위치마다 모든 대칭 위치 검사</text>
+    </g>
+    
+    <!-- Two Pointer 부분 -->
+    <g transform="translate(400, 80)">
+        <text x="150" y="20" font-size="20" text-anchor="middle" font-weight="bold">Two Pointer (O(n))</text>
+        
+        <!-- 문자열 -->
+        <g transform="translate(0, 50)">
+            <rect x="0" y="0" width="40" height="40" fill="#B0C4DE" stroke="#333"/>
+            <rect x="40" y="0" width="40" height="40" fill="#B0C4DE" stroke="#333"/>
+            <rect x="80" y="0" width="40" height="40" fill="#B0C4DE" stroke="#333"/>
+            <rect x="120" y="0" width="40" height="40" fill="#B0C4DE" stroke="#333"/>
+            <rect x="160" y="0" width="40" height="40" fill="#B0C4DE" stroke="#333"/>
+            
+            <text x="20" y="25" text-anchor="middle">h</text>
+            <text x="60" y="25" text-anchor="middle">e</text>
+            <text x="100" y="25" text-anchor="middle">l</text>
+            <text x="140" y="25" text-anchor="middle">l</text>
+            <text x="180" y="25" text-anchor="middle">o</text>
+            
+            <!-- 포인터 -->
+            <text x="20" y="60" text-anchor="middle" font-size="12">left</text>
+            <text x="180" y="60" text-anchor="middle" font-size="12">right</text>
+            
+            <!-- 이동 화살표 -->
+            <path d="M20,70 L60,70" stroke="green" stroke-width="2" marker-end="url(#arrowhead)"/>
+            <path d="M180,70 L140,70" stroke="green" stroke-width="2" marker-end="url(#arrowhead)"/>
+        </g>
+        
+        <text x="100" y="160" font-size="14" text-anchor="middle">양쪽에서 중앙으로 한 번만 이동</text>
+    </g>
+    
+    <!-- 화살표 마커 정의 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    
+    <!-- 복잡도 비교 -->
+    <g transform="translate(50, 300)">
+        <text x="0" y="0" font-size="16">
+            <tspan x="0" dy="0">Brute Force:</tspan>
+            <tspan x="20" dy="25">- 각 위치마다 대칭 위치를 찾아야 함</tspan>
+            <tspan x="20" dy="25">- n개의 위치 × n번의 비교 = O(n²)</tspan>
+        </text>
+        
+        <text x="350" y="0" font-size="16">
+            <tspan x="350" dy="0">Two Pointer:</tspan>
+            <tspan x="370" dy="25">- 양쪽에서 중앙으로 한 번만 이동</tspan>
+            <tspan x="370" dy="25">- n/2번의 비교만 필요 = O(n/2) = O(n)</tspan>
+        </text>
+    </g>
+</svg>

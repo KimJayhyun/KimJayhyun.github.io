@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- 원본 배열 제목 -->
+    <text x="350" y="40" font-size="20" font-weight="bold" text-anchor="middle">Array</text>
+    <!-- 원본 배열 박스들 -->
+    <g transform="translate(150, 60)">
+        <rect x="0" y="0" width="60" height="60" fill="#FFB6C1" stroke="#333" stroke-width="2"/>
+        <rect x="100" y="0" width="60" height="60" fill="#FFB6C1" stroke="#333" stroke-width="2"/>
+        <rect x="200" y="0" width="60" height="60" fill="#FFB6C1" stroke="#333" stroke-width="2"/>
+        <rect x="300" y="0" width="60" height="60" fill="#FFB6C1" stroke="#333" stroke-width="2"/>
+        <rect x="400" y="0" width="60" height="60" fill="#FFB6C1" stroke="#333" stroke-width="2"/>
+        <!-- 원본 배열 값들 -->
+        <text x="30" y="35" font-size="20" text-anchor="middle">3</text>
+        <text x="130" y="35" font-size="20" text-anchor="middle">1</text>
+        <text x="230" y="35" font-size="20" text-anchor="middle">4</text>
+        <text x="330" y="35" font-size="20" text-anchor="middle">2</text>
+        <text x="430" y="35" font-size="20" text-anchor="middle">6</text>
+    </g>
+    <!-- Prefix Sum 배열 제목 -->
+    <text x="350" y="180" font-size="20" font-weight="bold" text-anchor="middle">Prefix Sum Array</text>
+    <!-- Prefix Sum 배열 박스들 -->
+    <g transform="translate(150, 200)">
+        <rect x="0" y="0" width="60" height="60" fill="#B0C4DE" stroke="#333" stroke-width="2"/>
+        <rect x="100" y="0" width="60" height="60" fill="#B0C4DE" stroke="#333" stroke-width="2"/>
+        <rect x="200" y="0" width="60" height="60" fill="#B0C4DE" stroke="#333" stroke-width="2"/>
+        <rect x="300" y="0" width="60" height="60" fill="#B0C4DE" stroke="#333" stroke-width="2"/>
+        <rect x="400" y="0" width="60" height="60" fill="#B0C4DE" stroke="#333" stroke-width="2"/>
+        <!-- Prefix Sum 배열 값들 -->
+        <text x="30" y="35" font-size="20" text-anchor="middle">3</text>
+        <text x="130" y="35" font-size="20" text-anchor="middle">4</text>
+        <text x="230" y="35" font-size="20" text-anchor="middle">8</text>
+        <text x="330" y="35" font-size="20" text-anchor="middle">10</text>
+        <text x="430" y="35" font-size="20" text-anchor="middle">16</text>
+        <!-- 계산 과정을 보여주는 화살표와 설명 -->
+        <path d="M60,30 L100,30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M160,30 L200,30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M260,30 L300,30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M360,30 L400,30" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    </g>
+    <!-- 화살표 마커 정의 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <!-- 계산 과정 설명 -->
+    <g transform="translate(150, 280)" font-size="12">
+        <text x="65" y="0">+1</text>
+        <text x="165" y="0">+4</text>
+        <text x="265" y="0">+2</text>
+        <text x="365" y="0">+6</text>
+    </g>
+</svg>

@@ -1,0 +1,121 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- 제목 -->
+    <text x="400" y="40" font-size="24" text-anchor="middle" font-weight="bold">Palindrome Check: "racecar"</text>
+    
+    <!-- 첫 번째 단계 -->
+    <g transform="translate(50, 100)">
+        <text x="0" y="-10" font-size="16">Step 1:</text>
+        
+        <!-- 문자 박스들 -->
+        <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="40" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="80" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="120" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="160" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="200" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="240" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            
+            <!-- 문자들 -->
+            <text x="20" y="25" text-anchor="middle" font-size="16">r</text>
+            <text x="60" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="100" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="140" y="25" text-anchor="middle" font-size="16">e</text>
+            <text x="180" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="220" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="260" y="25" text-anchor="middle" font-size="16">r</text>
+            
+            <!-- 포인터 -->
+            <text x="20" y="60" text-anchor="middle" font-size="14">left</text>
+            <text x="260" y="60" text-anchor="middle" font-size="14">right</text>
+        </g>
+    </g>
+    
+    <!-- 두 번째 단계 -->
+    <g transform="translate(400, 100)">
+        <text x="0" y="-10" font-size="16">Step 2:</text>
+        
+        <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="40" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="80" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="120" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="160" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="200" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="240" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            
+            <text x="20" y="25" text-anchor="middle" font-size="16">r</text>
+            <text x="60" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="100" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="140" y="25" text-anchor="middle" font-size="16">e</text>
+            <text x="180" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="220" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="260" y="25" text-anchor="middle" font-size="16">r</text>
+            
+            <text x="60" y="60" text-anchor="middle" font-size="14">left</text>
+            <text x="220" y="60" text-anchor="middle" font-size="14">right</text>
+        </g>
+    </g>
+    
+    <!-- 세 번째 단계 -->
+    <g transform="translate(50, 250)">
+        <text x="0" y="-10" font-size="16">Step 3:</text>
+        
+        <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="40" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="80" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="120" y="0" width="40" height="40" fill="white" stroke="#333"/>
+            <rect x="160" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="200" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="240" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            
+            <text x="20" y="25" text-anchor="middle" font-size="16">r</text>
+            <text x="60" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="100" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="140" y="25" text-anchor="middle" font-size="16">e</text>
+            <text x="180" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="220" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="260" y="25" text-anchor="middle" font-size="16">r</text>
+            
+            <text x="100" y="60" text-anchor="middle" font-size="14">left</text>
+            <text x="180" y="60" text-anchor="middle" font-size="14">right</text>
+        </g>
+    </g>
+    
+    <!-- 결과 -->
+    <g transform="translate(400, 250)">
+        <text x="0" y="-10" font-size="16">Final:</text>
+        
+        <g transform="translate(0, 0)">
+            <rect x="0" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="40" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="80" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="120" y="0" width="40" height="40" fill="#FFB6C1" stroke="#333"/>
+            <rect x="160" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="200" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            <rect x="240" y="0" width="40" height="40" fill="#E6E6E6" stroke="#333"/>
+            
+            <text x="20" y="25" text-anchor="middle" font-size="16">r</text>
+            <text x="60" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="100" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="140" y="25" text-anchor="middle" font-size="16">e</text>
+            <text x="180" y="25" text-anchor="middle" font-size="16">c</text>
+            <text x="220" y="25" text-anchor="middle" font-size="16">a</text>
+            <text x="260" y="25" text-anchor="middle" font-size="16">r</text>
+            
+            <text x="140" y="60" text-anchor="middle" font-size="14">중앙</text>
+        </g>
+        
+        <text x="140" y="90" text-anchor="middle" font-size="16" fill="green">Palindrome: True</text>
+    </g>
+    
+    <!-- 범례 -->
+    <g transform="translate(50, 380)">
+        <rect x="0" y="0" width="20" height="20" fill="#FFB6C1" stroke="#333"/>
+        <text x="30" y="15" font-size="14">현재 비교 중인 문자</text>
+        
+        <rect x="200" y="0" width="20" height="20" fill="#E6E6E6" stroke="#333"/>
+        <text x="230" y="15" font-size="14">확인 완료된 문자</text>
+    </g>
+</svg>
