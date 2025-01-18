@@ -18,8 +18,6 @@
 
 - `SUM[i, j] = P[j] - P[i] (when j > i)`
 
-위처럼 계산할 경우, 부분합을 찾는 시간 복잡도는 `O(1)`이 된다
-
 아래 python 코드와 같이 구현할 수 있다.
 
 ```python
@@ -30,7 +28,7 @@ def create_prefix_sum(arr):
         prefix_sum[i + 1] = prefix_sum[i] + arr[i]
     return prefix_sum
 
-def get_range_sum(prefix_sum, left, right):
+def query_range_sum(prefix_sum, left, right):
     return prefix_sum[right + 1] - prefix_sum[left]
 
 # 사용 예시
@@ -38,7 +36,24 @@ arr = [3, 1, 4, 2, 6]
 prefix_sum = create_prefix_sum(arr)
 
 # 구간 [1,3] (인덱스 1부터 3까지)의 합을 구하는 경우
-print(get_range_sum(prefix_sum, 1, 3))  # 출력: 7 (1 + 4 + 2)
+print(query_range_sum(prefix_sum, 1, 3))  # 출력: 7 (1 + 4 + 2)
+```
+
+### 시간복잡도
+
+`Prefix Sum`을 활용할 경우, 부분합을 찾는 시간 복잡도는 `O(1)`이 된다
+
+`Prefix Sum`을 사용하지 않고, `query_range_sum`을 아래와 같이 작성했다고 하면,
+
+시간 복잡도가 `O(right - left) = O(n)`이 될 것이다.
+```python
+def query_range_sum(arr, left, right):
+    range_sum = 0
+
+    for k in range(left, right + 1):
+        range_sum += arr[k]
+
+    return range_sum
 ```
 
 ## 2. **Two Pointers (투 포인터)**
