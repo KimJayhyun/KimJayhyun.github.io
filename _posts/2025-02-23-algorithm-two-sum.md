@@ -13,7 +13,9 @@ tags:
 
 **두 수의 합(Two Sum)** 문제는 
 
-주어진 배열에서 두 원소의 합이 특정 목표값(`target`)과 일치하는 경우 해당 원소들의 인덱스를 반환하는 
+주어진 배열에서 두 원소의 합이 특정 목표값(`target`)과 일치하는 경우 
+
+해당 원소들의 인덱스를 반환하는 
 
 코딩 테스트와 알고리즘 문제에서 자주 등장하는 문제이다.
 
@@ -32,14 +34,11 @@ Dictionary(hash map) 혹은 Two Pointer을 활용하여 문제를 해결하는�
 
 예를 들어, `nums = [2, 7, 11, 15]`, `target = 9`인 경우, 정답은 `[0, 1]` (즉, 2와 7의 합이 9).
 
-### 같은 유형 문제
-
-- [Two Sum - Leetcode](https://leetcode.com/problems/two-sum/description/)
-- [두 용액 - 백준](https://www.acmicpc.net/problem/2470)
-
 ---
 
 ## 방법 1: Dictionary(hash map) 활용
+
+- [Two Sum - Leetcode](https://leetcode.com/problems/two-sum/description/)
 
 Dictionary 방식은 배열을 한 번 순회하면서, 
 
@@ -95,6 +94,8 @@ Dictionary를 사용하면
 
 ## 방법 2: Two Pointer 활용
 
+- [두 용액 - 백준](https://www.acmicpc.net/problem/2470)
+
 Two Pointer 방식은 배열이 **정렬되어 있을 때** 사용하면 된다.
 
 배열의 양쪽 끝에 포인터를 두고, 
@@ -145,8 +146,6 @@ class Solution:
 추가적인 자료구조 없이 포인터만 사용하므로 메모리 오버헤드가 적다.
 
 - **근접한 합 찾기** 
-
-> [두 용액 Solution](../baekjoon-2470)
 
 정렬된 배열에서 여러 후보군 중 `target`과 가장 근접한 합을  
 
@@ -201,5 +200,4 @@ class Solution:
 정확한 `target` 합을 찾을 때 **Dictionary**를 사용하고
 
 `target`과 가장 가까운 합을 찾는 문제에 **Two Pointer**를 적용하면 된다.
-  
   
