@@ -21,3 +21,8 @@
 - Network
 - Linux Command
 - Two Sum
+- Array Problem
+- Hashmap
+- Two Pointer
+- Must Know Algorithms
+- Maximum Subarray Sum

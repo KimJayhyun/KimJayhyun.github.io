@@ -1,12 +1,13 @@
 ---
 title: '[Algorithm] Kadane's Algorithm - 합이 가장 큰 부분 배열'
 date: 2025-02-27 13:00:00 +09:00
-categories: [Algorithm, Maximum Subarray Sum]
+categories: [Algorithm, Array Problem]
 tags:
   [
     Algorithm,
-    maximum Subarray Sum,
     Array Problem,
+    Must Know Algorithms,
+    Maximum Subarray Sum,
     DP
   ]
 ---
