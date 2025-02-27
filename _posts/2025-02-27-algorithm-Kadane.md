@@ -1,14 +1,13 @@
 ---
-title: '[Algorithm] 두 수의 합 문제 해결하기'
-date: 2025-02-23 17:00:00 +09:00
-categories: [Algorithm, Two Sum]
+title: '[Algorithm] Kadane's Algorithm - 합이 가장 큰 부분 배열'
+date: 2025-02-27 13:00:00 +09:00
+categories: [Algorithm, Maximum Subarray Sum]
 tags:
   [
     Algorithm,
-    Two Sum
-    Array,
-    Hashmap,
-    Two Pointer
+    maximum Subarray Sum,
+    Array Problem,
+    DP
   ]
 ---
 
