@@ -1,11 +1,15 @@
 ---
 title: '[Algorithm] 두 수의 합 문제 해결하기'
 date: 2025-02-23 17:00:00 +09:00
-categories: [Algorithm, Two Sum]
+categories: [Algorithm, Array Problem]
 tags:
   [
     Algorithm,
-    Two Sum
+    Array Problem,
+    Must Know Algorithms,
+    Two Sum,
+    Hashmap,
+    Two Pointer
   ]
 ---
 
